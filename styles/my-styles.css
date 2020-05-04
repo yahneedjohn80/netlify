@@ -1,0 +1,133 @@
+.my-google-font{
+  font-size:50px;
+  font-family: 'Akronim', cursive;
+  text-align:center;
+  color: #A34BF5;
+  
+}
+.my-google-font:hover{
+  color:#14FF58;
+}
+.back{
+  background-color: light-grey;
+}
+.navbar{
+  background-color: black;
+}
+
+.navbar-brand, .nav-link{
+  color:#9c97a1 !important;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+  color:#14FF58 !important;
+}
+
+.dropdown-menu{
+  background-color:  #000000 !important;
+}
+.dropdown-item{
+ color:#9c97a1 !important;
+}
+
+.carousel-caption{
+  background-color: rgb(0,0,0,0.3);
+  /*width: 50%;
+  margin: 0;*/
+}
+
+
+.container-fluid {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #5D5861;
+}
+
+.fab {
+  font-size: 60px;
+}
+.fab:hover {
+  color:  #14FF58;
+}
+.fas:hover {
+  color: #14FF58;
+}
+.fa-bezier-curve:hover{
+  color: #ebe83d;
+}
+
+
+@media(max-width: 700px){
+  .carousel{
+    display:none;
+  }
+}
+
+.footer-row {
+  background-color: black;
+  text-align:center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #ffffff;
+}
+
+.footer-row a {
+  color: #ffffff;
+}
+
+.video-row {
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  margin: 60px;
+}
+
+.google-fonts-sample {
+  font-family: 'Akronim';
+  color: #e6e6e6;
+  font-size: 25px;
+  text-align: justify;
+  padding-left: 40px;
+ 
+}
+
+.gallery {
+  text-align: center;
+  position: relative;
+  top: 40px;
+ 
+}
+.cropped-1 {
+  object-fit: cover;
+  object-position:75% 0;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  outline-color: blue;
+  outline-style: solid;
+}
+
+.cropped-2 {
+  object-fit: cover;
+  object-position:40% 0;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  outline-color: white;
+  outline-style: solid;
+}
+
+.cropped-3 {
+  object-fit: cover;
+  object-position:50% 0;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  outline-color: green;
+  outline-style: solid;
+}
+body{
+  background-color:#333232;
+}
